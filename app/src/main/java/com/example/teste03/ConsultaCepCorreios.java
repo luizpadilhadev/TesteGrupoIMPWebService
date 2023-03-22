@@ -15,6 +15,10 @@ public class ConsultaCepCorreios {
     private static final String URL = "https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente";
     private static final String METHOD_NAME = "consultaCEP";
 
+    public static Endereco buscarEndereco(String cep) {
+        return null;
+    }
+
     public interface EnderecoCallback {
         void onEnderecoRetornado(Endereco endereco);
         void onErro(String mensagem);
